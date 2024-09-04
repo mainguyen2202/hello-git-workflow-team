@@ -1,1 +1,38 @@
 # hello-git-workflow-team
+1: tạo git
+2: Copy hết phần khung này  echo "# hello-git-workflow-team" >> README.md ...  git push -u origin main
+3: git branch develop ( tạo nhánh develop) (main)
+4: git branch ( ktra nhánh), -> git checkout develop -> git checkout main
+5: git push -u origin develop (từ main push lên)
+6: git checkout -b feature/1-add-cart.model-file develop (main) 
+7: git status (feature/1-add-cart.model-file)
+8: tạo cart.model.js
+9: git add cart.model.js (feature/1-add-cart.model-file)
+10: git commit -m '#1 - anonystick update  model cart' (feature/1-add-cart.model-file)
+11: git push (feature/1-add-cart.model-file)  git push --set-upstream origin feature/1-add-cart.model-file
+12: lên git merge vào develop
+13: git checkout develop
+14: git pull
+15: git checkout -b release-1.0.0 develop (develop) (Tạo thêm nhánh release-1.0.0)
+16: git tag 'v1.0.0' (release-1.0.0)
+17: git merge develop (release-1.0.0)
+18: git push (release-1.0.0)
+19: lên git merge
+20: git checkout main
+21: git pull
+22: git push --tag (main)
+23: git checkout -b hostfix (main)
+24: fix lỗi
+25: git add (hostfix)
+26: git add cart.model.js (hostfix)
+27: git commit -m '#1 fix' (hostfix)
+28: git push (hostfix)
+29: git checkout main
+30: git pull
+31: Xong hết thì xóa các nhánh không cần thiết 
+32: git brach -d hostfix (localhost)
+33: git push origin -d hostfix (remote)
+Xóa hết chỉnh giữ lại 2 branch chính main, develop
+
+
+
