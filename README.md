@@ -1,4 +1,5 @@
 # hello-git-workflow-team
+```
 1: tạo git
 2: Copy hết phần khung này  echo "# hello-git-workflow-team" >> README.md ...  git push -u origin main
 3: git branch develop ( tạo nhánh develop) (main)
@@ -33,6 +34,7 @@
 32: git brach -d hostfix (localhost)
 33: git push origin -d hostfix (remote)
 Xóa hết chỉnh giữ lại 2 branch chính main, develop
+`
 
 
 
