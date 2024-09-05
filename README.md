@@ -43,7 +43,7 @@ npm install -g sass
 2 styles.scss biên dịch nó thành styles.css
 sass styles.scss styles.css
 
-sass styles1.scss stylesMai.css
+
 ```
 
 
