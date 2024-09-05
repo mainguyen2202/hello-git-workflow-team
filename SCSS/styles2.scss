@@ -1,0 +1,26 @@
+// Import Partials
+@import 'variables';
+@import 'mixins';
+
+// Styles
+.container {
+    text-align: center;
+    margin: 20px;
+
+    .title {
+        color: $title-color;
+        font-size: $title-font-size;
+    }
+
+    .button {
+        @include button-styles($primary-color, white);
+
+        &.primary {
+            background-color: $primary-color;
+        }
+
+        &.secondary {
+            @include button-styles($secondary-color, black);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  margin: 20px;
+}
+.container .title {
+  color: #ff0000;
+  font-size: 24px;
+}
+.container .button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .button.primary {
+  background-color: #ff0000;
+  color: white;
+}
+.container .button.secondary {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+/*# sourceMappingURL=stylesMai.css.map */

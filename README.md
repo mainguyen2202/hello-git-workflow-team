@@ -34,7 +34,17 @@
 32: git brach -d hostfix (localhost)
 33: git push origin -d hostfix (remote)
 Xóa hết chỉnh giữ lại 2 branch chính main, develop
-`
+```
+
+# SCSS
+``` 
+1. Cài Đặt Sass
+npm install -g sass
+2 styles.scss biên dịch nó thành styles.css
+sass styles.scss styles.css
+
+sass styles1.scss stylesMai.css
+```
 
 
 
