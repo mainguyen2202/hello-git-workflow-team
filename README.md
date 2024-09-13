@@ -35,6 +35,7 @@
 33: git push origin -d hostfix (remote)
 Xóa hết chỉnh giữ lại 2 branch chính main, develop
 ```
+git checkout -b feature/1-add-cart.model-file develop
 
 # SCSS
 ``` 
@@ -42,6 +43,29 @@ Xóa hết chỉnh giữ lại 2 branch chính main, develop
 npm install -g sass
 2 styles.scss biên dịch nó thành styles.css
 sass styles.scss styles.css
+
+sass styleSCSS.scss styleCSS.css
+```
+
+# Tailwind 
+```
+Installation 
+1. Install Tailwind CSS 
+npm install -D tailwindcss
+npx tailwindcss init
+
+2. Configure your template paths (vào tailwind.config.js thêm path vào content)
+content: ["./src/**/*.{html,js}"],
+
+3. Add the Tailwind directives to your CSS ( tạo 1 file input.css thêm vào)
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+4. Start the Tailwind CLI build process  (biên dịch từ file input.css thành output.css)
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+5. Start using Tailwind in your HTML
 
 
 ```

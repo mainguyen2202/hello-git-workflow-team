@@ -1,0 +1,33 @@
+// Mixins
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+   
+}
+
+@mixin button-style($bg-color, $text-color: $white) {
+    background: $bg-color;
+    color: $text-color;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background: darken($bg-color, 10%); //Khi người dùng di chuột lên nút, màu nền của nút sẽ tối hơn 10% so với màu nền ban đầu, nhờ vào hàm darken() trong mixin button-style.
+    }
+}
+
+@mixin button-style-hoverbg($bg-color, $hover-color, $text-color: $white) {
+    background: $bg-color;
+    color: $text-color;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background: $hover-color;
+    }
+}
