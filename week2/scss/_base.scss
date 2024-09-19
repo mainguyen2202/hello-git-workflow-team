@@ -1,0 +1,80 @@
+// _base.scss
+@import 'variables';
+@import 'mixins';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    @include flex-center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: $max-width; // Giới hạn chiều rộng tối đa
+    padding: 20px;
+    text-align: center; // Căn giữa chữ
+    @include flex-center;
+}
+
+header {
+    margin-bottom: 200px; 
+}
+
+main {
+    margin-top: 200px; 
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    @include flex-center;
+}
+
+footer {
+    // margin-top: 20px; 
+}
+
+.navigation, .course, .head-office {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    color: $primary-color;
+}
+
+.link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.bui-thi-xuan-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-color;
+}
+
+// Các quy tắc khác không thay đổi
+// ...
+
+@include responsive {
+    body {
+        // Các quy tắc responsive
+    }
+
+    .container {
+        padding: 10px; // Giảm padding trên màn hình nhỏ
+    }
+
+    // Các quy tắc khác cho responsive
+}
