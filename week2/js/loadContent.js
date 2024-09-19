@@ -59,7 +59,9 @@ const contentToLoad = [
     { url: 'html/home/ss5.html', elementId: 'ss5' },
     { url: 'html/home/ss6.html', elementId: 'ss6' },
     { url: 'html/home/ss7.html', elementId: 'ss7' },
-    { url: 'html/home/ss8.html', elementId: 'ss8' }
+    { url: 'html/home/ss8.html', elementId: 'ss8' },
+    { url: 'html/course/tab.html', elementId: 'tab' },
+    // { url: 'html/course/pagination.html', elementId: 'pagination' }
 ];
 
 // Lặp qua danh sách và gọi loadContent

@@ -1,3 +1,17 @@
+.list-card-courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)!important; /* Three equal columns */
+    gap: 10px; /* Space between cards */
+}
+.card-courses {
+    border: 1px solid #ccc;
+    padding: 15px;
+    
+}
+.image img {
+    max-width: 100%;
+}
+
 .all-courses {
     position: absolute;
     top: 112px;
@@ -293,8 +307,9 @@
     position: absolute;
     top: 280px;
     left: 160px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
     align-items: flex-start;
     justify-content: flex-start;
     gap: 40px;
@@ -335,97 +350,7 @@
     padding: 2px;
     box-sizing: border-box;
 }
-.navigation {
-    align-self: stretch;
-    position: relative;
-    font-size: 18px;
-    line-height: 28px;
-    color: #0d0f35;
-}
-.home {
-    align-self: stretch;
-    position: relative;
-    line-height: 24px;
-}
-.link {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 16px;
-}
-.head-office {
-    align-self: stretch;
-    position: relative;
-    line-height: 28px;
-}
-.bui-thi-xuan {
-    margin: 0;
-}
-.bui-thi-xuan-container {
-    align-self: stretch;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    color: #71738b;
-}
-.twitter-icon {
-    width: 32px;
-    position: relative;
-    height: 32px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-.twitter-parent {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-}
-.link1 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 16px;
-    font-size: 18px;
-    color: #0d0f35;
-}
-.grid {
-    position: absolute;
-    width: calc(100% - 1137px);
-    top: 160px;
-    right: 160px;
-    left: 977px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 40px;
-}
-.copyright-2023 {
-    position: absolute;
-    bottom: 32px;
-    left: 160px;
-    line-height: 24px;
-}
-.logo-goto-icon {
-    width: 178.7px;
-    position: relative;
-    height: 32px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.headlineh2-medium {
-    align-self: stretch;
-    position: relative;
-    line-height: 140%;
-    font-weight: 500;
-}
+
 .button {
     width: 199px;
     border-radius: 40px;
@@ -453,15 +378,7 @@
     font-size: 32px;
     color: #0d0f35;
 }
-.footer {
-    position: absolute;
-    top: 2453px;
-    left: 0px;
-    background-color: #fff;
-    width: 1680px;
-    height: 534px;
-    color: #71738b;
-}
+
 .pagination-itemitem-icon {
     width: 40px;
     position: relative;
@@ -506,8 +423,8 @@
 }
 .paginationbasic {
     position: absolute;
-    top: 2293px;
-    right: 159px;
+    top: 2393px;
+    right:  159px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -515,46 +432,7 @@
     gap: 16px;
     font-size: 14px;
 }
-.itemmenu {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 8px;
-}
-.button1 {
-    border-radius: 40px;
-    background-color: #0d0f35;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    gap: 8px;
-    text-align: left;
-    color: #fff;
-}
-.left {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 40px;
-}
-.top-navnew {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(255, 255, 255, 0.69);
-    width: 1680px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 160px 8px;
-    box-sizing: border-box;
-    text-align: center;
-}
+
 .courses {
     width: 100%;
     position: relative;

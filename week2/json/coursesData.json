@@ -1,0 +1,322 @@
+[
+    {
+        "type": "frontend",
+        "title": "FRONTEND",
+        "tech": "ReactJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "NodeJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "PHP",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "MOBILE",
+        "title": "MOBILE",
+        "tech": "Flutter",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "QC",
+        "title": "QC",
+        "tech": "QC",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "GAME",
+        "title": "GAME",
+        "tech": "Unity",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "Blockchain",
+        "title": "Blockchain",
+        "tech": "Blockchain",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "IOT",
+        "title": "IOT",
+        "tech": "IOT",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "frontend",
+        "title": "FRONTEND",
+        "tech": "ReactJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "NodeJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "PHP",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "MOBILE",
+        "title": "MOBILE",
+        "tech": "Flutter",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "QC",
+        "title": "QC",
+        "tech": "QC",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "GAME",
+        "title": "GAME",
+        "tech": "Unity",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "Blockchain",
+        "title": "Blockchain",
+        "tech": "Blockchain",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "IOT",
+        "title": "IOT",
+        "tech": "IOT",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "frontend",
+        "title": "FRONTEND",
+        "tech": "ReactJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "NodeJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "PHP",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "MOBILE",
+        "title": "MOBILE",
+        "tech": "Flutter",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "QC",
+        "title": "QC",
+        "tech": "QC",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "GAME",
+        "title": "GAME",
+        "tech": "Unity",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "Blockchain",
+        "title": "Blockchain",
+        "tech": "Blockchain",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "IOT",
+        "title": "IOT",
+        "tech": "IOT",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "frontend",
+        "title": "FRONTEND",
+        "tech": "ReactJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "NodeJS",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "BACKEND",
+        "title": "BACKEND",
+        "tech": "PHP",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "MOBILE",
+        "title": "MOBILE",
+        "tech": "Flutter",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "QC",
+        "title": "QC",
+        "tech": "QC",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "DESIGN",
+        "title": "DESIGN",
+        "tech": "DESIGN",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "Blockchain",
+        "title": "Blockchain",
+        "tech": "Blockchain",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    },
+    {
+        "type": "IOT",
+        "title": "IOT",
+        "tech": "IOT",
+        "user": "Jane Cooper",
+        "price": "4.500.000đ",
+        "status": "Offline",
+        "imgSrc": "Group 3.png",
+        "isImage": true
+    }
+]
