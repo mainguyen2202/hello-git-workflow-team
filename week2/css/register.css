@@ -1,0 +1,199 @@
+.name {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Centra No2';
+    color: #0d0f35;
+    text-align: left;
+}
+
+.base {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+.label {
+    flex: 1;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Centra No2';
+    color: #71738b;
+    text-align: left;
+    height: 24px;
+}
+
+.input-no-label1 {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #d2d2da;
+    display: flex;
+    padding: 20px 16px;
+    gap: 8px;
+}
+
+.helper-text1 {
+    line-height: 16px;
+}
+
+.helper-text {
+    width: 270px;
+    display: none;
+    padding: 0 16px;
+    font-size: 12px;
+    color: #6e6e87;
+}
+
+.input-no-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+    color: #71738b;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.row-input-01 {
+    display: flex;
+    gap: 40px;
+}
+
+.label3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    line-height: 24px;
+    font-weight: 500;
+}
+
+/* .content {
+    width: 83px;
+    height: 24px;
+} */
+
+.left {
+    display: flex;
+    gap: 8px;
+}
+
+.arrow-down-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.dropdown1 {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #d2d2da;
+    display: flex;
+    padding: 20px 16px;
+    justify-content: space-between;
+}
+
+.helper-text7 {
+    line-height: 16px;
+}
+
+.helper-text6 {
+    display: none;
+    padding-left: 16px;
+    font-size: 12px;
+    color: #6e6e87;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.input4 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.label5 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    line-height: 24px;
+}
+
+.iconbase {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.input-text-area {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #d2d2da;
+    height: 110px;
+    font-size: 14px;
+    color: #71738b;
+}
+
+.personal-information {
+    width: 893px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* .button {
+    width: 893px;
+    border-radius: 40px;
+    background-color: #0d0f35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: #fff;
+} */
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    text-align: left;
+    font-size: 16px;
+    color: #0d0f35;
+    font-family: 'Centra No2';
+    align-items: center;
+}
+
+.register-for-the {
+    width: 430px;
+    font-size: 40px;
+    line-height: 140%;
+    display: inline-block;
+    font-family: 'Centra No2';
+    color: #0d0f35;
+    text-align: left;
+}
+.registered-students {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1516px;
+    text-align: left;
+    font-size: 16px;
+    color: #0d0f35;
+    font-family: 'Centra No2';
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+}

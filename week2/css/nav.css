@@ -104,15 +104,7 @@ a {
 /* footer */
 
 
-.footer {
-    position: absolute;
-    top: 2453px;
-    left: 0px;
-    background-color: #fff;
-    width: 1680px;
-    height: 534px;
-    color: #71738b;
-}
+
 .link {
     flex: 1;
     display: flex;
@@ -171,16 +163,7 @@ a {
     position: relative;
     line-height: 28px;
 }
-.bui-thi-xuan {
-    margin: 0;
-}
-.bui-thi-xuan-container {
-    align-self: stretch;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    color: #71738b;
-}
+
 .twitter-icon {
     width: 32px;
     position: relative;
@@ -216,4 +199,179 @@ a {
     position: relative;
     line-height: 140%;
     font-weight: 500;
+}
+.image-400-icon {
+    position: absolute;
+    top: 80px;
+    left: 1374px;
+    width: 848px;
+    height: 896.5px;
+    object-fit: contain;
+}
+a .textButton {
+    position: relative;
+    line-height: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.navigation {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0d0f35;
+}
+.course {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+}
+.link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.head-office {
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+}
+.bui-thi-xuan {
+    margin: 0;
+}
+.bui-thi-xuan-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #71738b;
+}
+.twitter-icon {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.twitter-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.link1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 18px;
+    color: #0d0f35;
+}
+.grid {
+    position: absolute;
+    width: calc(100% - 1137px);
+    top: 160px;
+    right: 160px;
+    left: 977px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.copyright-2023 {
+    position: absolute;
+    bottom: 32px;
+    left: 160px;
+    line-height: 24px;
+}
+.logo-goto-icon {
+    width: 178.7px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.headlineh2-medium {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 500;
+}
+.base {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    display: none;
+}
+.text {
+    position: relative;
+    line-height: 24px;
+    text-decoration: none; /* Bỏ gạch chân */
+}
+.button {
+    width: 199px;
+    border-radius: 40px;
+    background-color: #0d0f35;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 8px;
+    font-size: 16px;
+    color: #fff;
+}
+.content {
+    position: absolute;
+    top: 96px;
+    right: 1093px;
+    width: 427px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 32px;
+    color: #0d0f35;
+}
+/* .footer {
+    position: absolute;
+    top: 9019px;
+    left: 0px;
+    background-color: #fff;
+    width: 1680px;
+    height: 534px;
+    font-size: 16px;
+    color: #71738b;
+} */
+.footer {
+    position: absolute;
+    top: 2453px;
+    left: 0px;
+    background-color: #fff;
+    width: 1680px;
+    height: 534px;
+    color: #71738b;
+}
+
+.bui-thi-xuan {
+    margin: 0;
+}
+.bui-thi-xuan-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #71738b;
 }
