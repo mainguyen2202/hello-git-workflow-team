@@ -246,6 +246,11 @@ a {
     color: #71738b;
 }
 
+
+/* end */
+
+
+
 .become-a-part {
     position: relative;
     line-height: 140%;
@@ -277,6 +282,8 @@ a {
     justify-content: flex-start;
     gap: 24px;
 }
+
+
 
 .button1 {
     width: 220px;
@@ -356,16 +363,7 @@ a {
     display: inline-block;
 }
 
-.title1 {
-    position: absolute;
-    top: 140px;
-    left: calc(50% - 330px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 16px;
-}
+
 
 .appscyclone-is-a-team {
     position: absolute;
@@ -917,21 +915,7 @@ a {
     z-index: 1;
 }
 
-.tag-basic1 {
-    margin: 0 !important;
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    background-color: #00a8a4;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 16px;
-    gap: 8px;
-    z-index: 2;
-    color: #fff;
-}
+
 
 .card5 {
     position: absolute;
@@ -1001,21 +985,7 @@ a {
     z-index: 0;
 }
 
-.tag-basic2 {
-    margin: 0 !important;
-    position: absolute;
-    top: 40px;
-    left: 426px;
-    background-color: #00a8a4;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 16px;
-    gap: 8px;
-    z-index: 2;
-    color: #fff;
-}
+
 
 .card6 {
     position: absolute;
@@ -1282,6 +1252,7 @@ a {
     /* height: 945px; */
 }
 
+
 .title14 {
     align-self: stretch;
     position: relative;
@@ -1353,6 +1324,14 @@ a {
     height: 736px;
     object-fit: cover;
 }
+.image-400-icon {
+    position: absolute;
+    top: 80px;
+    left: 1374px;
+    width: 848px;
+    height: 896.5px;
+    object-fit: contain;
+}
 
 .ss1-course-coming-soon {
     position: absolute;
@@ -1362,7 +1341,7 @@ a {
     /* height: 945px; */
     font-size: 64px;
 }
-
+/* nav */
 
 .button7 {
     border-radius: 40px;

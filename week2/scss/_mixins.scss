@@ -1,18 +1,196 @@
 // _mixins.scss
-@mixin flex-center {
+// @mixin flex-center {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// @mixin flex-row-center {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+// }
+
+// -----
+
+// @mixin flex-column-start {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     justify-content: flex-start;
+// }
+
+// @mixin flex-row-start {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: flex-start;
+//     justify-content: flex-start;
+// }
+
+// @mixin flex-row-center-center {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+
+
+
+// @mixin flex-row-center-start {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: flex-start;
+// }
+
+
+
+
+// @mixin flex-row-center-between {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+
+
+
+
+
+// @mixin flex-column-center-start {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: flex-start;
+// }
+
+
+
+// con
+// @mixin flex-column-start-center {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     justify-content: center;
+// }
+// @mixin flex-row-start-between {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: flex-start;
+//     justify-content: space-between;
+// }
+
+@mixin flex($direction, $items, $content) {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: $direction;
+    align-items: $items;
+    justify-content: $content;
+  }
+  
+
+  
+  
+  
+//   @include flex(column, flex-start, flex-start);
+//   @include flex(column, center, flex-start); // center items vertical, start horiz  
+//   @include flex(column, flex-start, center); 
+
+//   @include flex(row, flex-start, flex-start);
+//   @include flex(row, center, center); // center items both horiz & vert
+//   @include flex(row, center, flex-start);
+//   @include flex(row, center, space-between);
+//   @include flex(row, flex-start, space-between);
+
+
+
+@mixin content-style($positionInput, $textAlignInput, $topInput, $rightInput, 
+$widthInput, $gapInput, $fontSizeInput, $overflowInput, $textColorInput) {
+    position: $positionInput;
+    text-align: $textAlignInput;
+
+
+
+    top: $topInput;
+    right: $rightInput;
+    width: $widthInput;
+
+    gap: $gapInput;
+    font-size: $fontSizeInput;
+
+
+
+    overflow: $overflowInput;
+
+
+    .element {
+        @include flex-column-start;
+    }
+
+
+    color: $textColorInput;
+    font-family: 'Centra No2';
 }
 
-@mixin responsive {
-    @media (max-width: 767px) {
-        @content;
+
+
+
+@mixin tag-basic-style($positionInput, $topInput, $leftInput, 
+$gapInput, $bgColorInput, $textColorInput: $white, $padding, $zIndex) {
+
+    margin: 0 !important;
+    position: $positionInput;
+    top: $topInput;
+    left: $leftInput;
+    background-color: $bgColorInput;
+
+    padding: $padding;
+    gap: $gapInput;
+    z-index: $zIndex;
+    color: $textColorInput;
+
+
+
+    .element {
+        @include flex-row-center-center;
     }
-    @media (min-width: 768px) and (max-width: 1199px) {
-        @content;
+}
+
+
+@mixin button-style(
+    $bg-color, 
+    $hover-color, 
+    $text-color,
+    $widthInput,
+    $boderRadiusInput,
+    $paddingInput,
+    $boxSizingInput,
+    $gapInput,
+    $fontSizeInput,
+) {
+
+
+
+
+    width: $widthInput;
+    border-radius: $boderRadiusInput;
+    background-color: $bg-color;
+
+
+    .element {
+        @include flex-row-center-center;
     }
-    @media (min-width: 1200px) {
-        @content;
+
+
+    padding: $paddingInput;
+    box-sizing: $boxSizingInput;
+    gap: $gapInput;
+    font-size: $gapInput;
+    color: $text-color;
+
+    cursor: pointer;
+
+    &:hover {
+        background: $hover-color;
     }
 }

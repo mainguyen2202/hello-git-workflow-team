@@ -47,6 +47,8 @@ npm install -g sass
 sass styles.scss styles.css
 
 sass styleSCSS.scss styleCSS.css
+
+sass ./scss/styleSCSS.scss ./scss/styleCSS.css
 ```
 
 # Tailwind 
